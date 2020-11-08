@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom';
 import About from './About';
 import Name from './App';
 import AdaImage from './Image';
-import imgUrl from '../img/256px-Ada_Lovelace_portrait.jpg';
 
 function App() {
 
@@ -14,8 +13,7 @@ function App() {
 
          <AdaImage item={ AdaImage }/>
 
-         <About item={ About } done="true" />
-
+         <About item={ About } />
       </article>
    )
 }
